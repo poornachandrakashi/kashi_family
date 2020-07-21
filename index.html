@@ -2,15 +2,10 @@
 <html>
 
 <head>
-    <META HTTP-EQUIV="Pragma" CONTENT="no-cache">
-    <META HTTP-EQUIV="Expires" CONTENT="-1">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Test Family Tree</title>
-    <!-- I found and adapted this css code from: https://stackoverflow.com/questions/38192074/family-tree-css -->
-    <!-- There is also an example on codepen.io at: http://codepen.io/Pestov/pen/BLpgm -->
-    <!-- I am not sure who the original creator is -->
-
+    <title>Kashi Family</title>
     <style>
+        /* (Scroll down for gradient rules) */
+        
         * {
             margin: 0;
             padding: 0;
@@ -33,13 +28,13 @@
         
         .tree li {
             /* float: left;
-            text-align: center;
-            list-style-type: none;
-            position: relative;
-            padding: 20px 5px 0 5px;
-            transition: all 0.5s;
-            -webkit-transition: all 0.5s;
-            -moz-transition: all 0.5s; */
+                text-align: center;
+                list-style-type: none;
+                position: relative;
+                padding: 20px 5px 0 5px;
+                transition: all 0.5s;
+                -webkit-transition: all 0.5s;
+                -moz-transition: all 0.5s; */
             text-align: center;
             list-style-type: none;
             position: relative;
@@ -175,15 +170,23 @@
         .tree li div:hover+ul ul::before {
             border-color: #94a0b4;
         }
+        
+        .text {
+            font-size: 45px;
+            text-align: center;
+        }
     </style>
-
 </head>
 
 <body>
-
+    <div>
+        <h1 class="text">Kashi Family</h1>
+        <h4 style="text-align: center;">Slightly move here</h4>
+    </div>
     <form id="form1">
 
         <div class="tree" id="FamilyTreeDiv">
+
             <ul>
                 <li>
 
@@ -234,8 +237,8 @@
                                                             <li>
                                                                 <div>
                                                                     <span class="female">
-                                                                Payaswini
-                                                            </span>
+                                                                    Payaswini
+                                                                </span>
                                                                 </div>
                                                             </li>
                                                         </ul>
@@ -250,7 +253,7 @@
                                                     <ul>
                                                         <li>
                                                             <div>
-                                                                <span class="male">Shubham</span>
+                                                                <span class="female">Shubham</span>
                                                             </div>
                                                         </li>
                                                     </ul>
@@ -362,7 +365,7 @@
                                             <ul>
                                                 <div>
                                                     <li>
-                                                        <span class="female"> Boy Child</span>
+                                                        <span class="male"> Boy Child</span>
                                                     </li>
                                                 </div>
                                             </ul>
@@ -386,12 +389,12 @@
                                             <ul>
                                                 <li>
                                                     <div>
-                                                        <span class="male">Arushi</span>
+                                                        <span class="female">Arushi</span>
                                                     </div>
                                                 </li>
                                                 <li>
                                                     <div>
-                                                        <span class="male">Kushi</span>
+                                                        <span class="female">Kushi</span>
                                                     </div>
                                                 </li>
                                             </ul>
@@ -479,7 +482,7 @@
                                             <ul>
                                                 <li>
                                                     <div>
-                                                        <span class="male">Nidhi</span>
+                                                        <span class="female">Nidhi</span>
                                                     </div>
                                                 </li>
                                             </ul>
@@ -516,7 +519,7 @@
                                             <ul>
                                                 <li>
                                                     <div>
-                                                        <span class="male">Srisha</span>
+                                                        <span class="female">Srisha</span>
                                                     </div>
                                                 </li>
                                             </ul>
@@ -530,7 +533,7 @@
                                             <ul>
                                                 <li>
                                                     <div>
-                                                        <span class="male">Aarohi</span>
+                                                        <span class="female">Aarohi</span>
                                                     </div>
                                                 </li>
                                             </ul>
@@ -819,8 +822,7 @@
                             </ul>
                         </li>
                         </ul>
-                </li>
-                </ul>
+                    </ul>
                 </li>
             </ul>
         </div>
